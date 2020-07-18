@@ -1,1 +1,3 @@
-# CICDPipeline
+# maven-project
+
+Simple Maven Project
