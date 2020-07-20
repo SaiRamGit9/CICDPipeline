@@ -1,6 +1,7 @@
-# Pull base image 
-From tomcat:8-jre8 
+FROM node:7-onbuild
 
-# Maintainer 
-MAINTAINER "sairamakrishna@hotmail.com" 
-COPY ./webapp.war /usr/local/tomcat/webapps
+# set maintainer
+LABEL maintainer "sairamakrishna@gmail.com"
+
+# tell docker what port to expose
+EXPOSE 8000
